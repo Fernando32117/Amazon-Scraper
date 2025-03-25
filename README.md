@@ -17,6 +17,12 @@ Este projeto é um scraper de produtos da Amazon que extrai informações da pri
 
 ---
 
+## 🖥️ Preview da Aplicação  
+
+![Preview da Aplicação](./amazon-scraper-frontend/assets/preview.png)
+
+---
+
 ## ⚙️ Configuração do projeto
 
 ### 1️⃣ Pré-requisitos
