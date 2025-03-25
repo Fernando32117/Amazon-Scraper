@@ -1,0 +1,101 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  height: 98vh;
+  overflow: auto; /* Permite rolagem se o conteúdo for maior que a tela */
+}
+
+.container {
+  margin: 10px auto;
+  max-width: 800px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  overflow: hidden; /* Impede que a contêiner ultrapasse a tela */
+  height: 100%; /* Preenche toda a altura disponível */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #e47911;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+input, button {
+  padding: 12px;
+  margin: 10px 0;
+  width: 85%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.3rem;
+}
+
+input {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+button {
+  background-color: #e47911;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c25d00;
+}
+
+/* Estilos dos resultados */
+#results {
+  margin-top: 30px;
+  max-height: 75%; /* Limita a altura do contêiner */
+  overflow-y: auto; /* Permite rolagem vertical */
+  border-radius: 10px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  background-color: #f9fafb;
+}
+
+.product img {
+  max-width: 100px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 5px 0;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
