@@ -48,7 +48,7 @@ bun install
 
 ### 4️⃣ Iniciar o servidor backend
 ```bash
-bun run dev
+bun run server.js
 ```
 
 ## 🚀 Executando o Frontend
