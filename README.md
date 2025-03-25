@@ -43,7 +43,6 @@ curl -fsSL https://bun.sh/install | bash
 
 ```bash
 git clone https://github.com/Fernando32117/Amazon-Scraper.git
-cd Amazon-scraper
 ```
 
 ### 3️⃣ Instalar as dependências
